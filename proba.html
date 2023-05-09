@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tsymbal Milena">
+    <meta name="date" content="2023-04-11">
+    <meta name="description" content="Website about solid wood products">
+
+    <title>Wood product services</title>
+
+    <link rel="icon" sizes="32x32" href="./favicon.png">
+
+    <link rel="stylesheet" href="proba.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="scrollTop hideScroll showScroll ">
+        <i class="fa-solid fa-arrow-up-long"></i>
+    </div>
+
+    <header>
+        <div class="header-info">
+            <div class="container">
+                <div class="header-items">
+                    <img src="./images/logo.png" alt="logo">
+
+                    <nav>
+                        <input class="toggle-menu" type="checkbox" name="" id="">
+                        <div class="hamburger"></div>
+                        
+                        <ul class="menu">
+                            <li>
+                                <a href="index.html" id="index">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="index2.html" id="index2">Our work</a>
+                            </li>
+                            <li>
+                                <a href="index3.html" id="index3">About us</a>
+                            </li>
+                            <li>
+                                <a href="index4.html" id="index4">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- <section class="about-us-section">
+            <div class="about-us">
+                <div class="about-us-inner">
+                    <div class="about-us-info">
+                        <h2>About us</h2>
+                        <p class="about-us-text">BIO CWT - We manufacture solid wood products according to individual
+                            drawings. We make chairs, armchairs, wardrobes, beds and much more in our own workshop,
+                            equipped
+                            with all the necessary industrial equipment.</p>
+                        <div class="audio">
+                            <audio src="./audio/audio.mp3" controls></audio>
+                        </div>
+                    </div>
+                    <div class="about-us-images">
+                        <div class="about-us-images-inner">
+                            <img class="about-us-image" src="./images/aboutUs1.png" alt="">
+                            <img class="about-us-image" src="./images/aboutUs2.png" alt="">
+                            <img class="about-us-image" src="./images/aboutUs3.png" alt="">
+                            <img class="about-us-image img-stol-4" src="./images/aboutUs4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section>
+            <div class="container">
+                <h2 class="our-work our-work-second-page">Our work</h2>
+                <div class="our-work-section">
+                    <div class="slider">
+                        <div class="slides">
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <div class="slide first">
+                                <img src="./images/kitchen1.png" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="./images/kitchen2.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img class="kitchen3" src="./images/kitchen3.jpg" alt="">
+                            </div>
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                            </div>
+                        </div>
+                        <div class="navigation-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="any-questions-title">
+                    <h2>Any questions?</h2>
+                </div>
+                <div class="any-questions-info">
+                    <form action="#">
+                        <input class="any-questions-form-input" type="date" id="date" name="date" placeholder="Date"
+                            required>
+                        <input class="any-questions-form-input" type="email" placeholder="Your email" required>
+                        <input class="any-questions-form-input" type="tel" placeholder="Your telephone number"
+                            pattern="[0-9,+]{13}" required>
+                        <textarea class="any-questions-form-for-question" cols="30" rows="7" placeholder="Your question"
+                            required></textarea>
+                        <button class="send">Send</button>
+                    </form>
+                    <div class="any-questions-text">
+                        <p>Write to us and we will be sure to answer all your questions and give you a comprehensive
+                            consultation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <img class="footer-info-img" src="./images/wood.png" alt="">
+                <div class="footer-text">
+                    <div class="footer-logo">
+                        <img src="./images/logo.png" alt="logo">
+                        <p>Privacy Policy</p>
+                    </div>
+                    <div class="footer-phone">
+                        <img src="./images/phone.png" alt="">
+                        <a type='tel' href="tel:+420 000 000 000">+420 000 000 000</a>
+                    </div>
+                    <div class="footer-location">
+                        <img src="./images/location.png" alt="">
+                        <a href="https://goo.gl/maps/c2DoyarV2BG4wvSq8" target="_blank">Na Plzeňce 1166/0
+                            150 00</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

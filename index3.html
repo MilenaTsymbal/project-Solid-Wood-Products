@@ -13,7 +13,7 @@
 
     <link rel="icon" sizes="32x32" href="./favicon.png">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="proba.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,8 +37,12 @@
             <div class="container">
                 <div class="header-items">
                     <img src="./images/logo.png" alt="logo">
+
                     <nav>
-                        <ul>
+                        <input class="toggle-menu" type="checkbox" name="" id="">
+                        <div class="hamburger"></div>
+                        
+                        <ul class="menu">
                             <li>
                                 <a href="index.html" id="index">Gallery</a>
                             </li>
@@ -53,24 +57,35 @@
                             </li>
                         </ul>
                     </nav>
+
+
+
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <section>
+        <section class="about-us-section">
             <div class="about-us">
-                <div class="about-us-info">
-                    <h2>About us</h2>
-                    <p class="about-us-text">BIO CWT - We manufacture solid wood products according to individual
-                        drawings. We make chairs, armchairs, wardrobes, beds and much more in our own workshop, equipped
-                        with all the necessary industrial equipment.</p>
-                    <div class="audio">
-                        <audio src="./audio/audio.mp3" controls></audio>
+                <div class="about-us-inner">
+                    <div class="about-us-info">
+                        <h2>About us</h2>
+                        <p class="about-us-text">BIO CWT - We manufacture solid wood products according to individual
+                            drawings. We make chairs, armchairs, wardrobes, beds and much more in our own workshop,
+                            equipped
+                            with all the necessary industrial equipment.</p>
+                        <div class="audio">
+                            <audio src="./audio/audio.mp3" controls></audio>
+                        </div>
                     </div>
-                    <img class="about-us-image1" src="./images/aboutUs1.png" alt="">
-                    <img class="about-us-image2" src="./images/aboutUs2.png" alt="">
-                    <img class="about-us-image3" src="./images/aboutUs3.png" alt="">
+                    <div class="about-us-images">
+                        <div class="about-us-images-inner">
+                            <img class="about-us-image" src="./images/aboutUs1.png" alt="">
+                            <img class="about-us-image" src="./images/aboutUs2.png" alt="">
+                            <img class="about-us-image" src="./images/aboutUs3.png" alt="">
+                            <img class="about-us-image img-stol-4" src="./images/aboutUs4.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -114,10 +129,13 @@
                 </div>
                 <div class="any-questions-info">
                     <form action="#">
-                        <input type="date" id="date" name="date" placeholder="Date" required>
-                        <input type="email" placeholder="Your email" required>
-                        <input type="tel" placeholder="Your telephone number" pattern="[0-9,+]{13}" required>
-                        <textarea cols="30" rows="7" placeholder="Your question" required></textarea>
+                        <input class="any-questions-form-input" type="date" id="date" name="date" placeholder="Date"
+                            required>
+                        <input class="any-questions-form-input" type="email" placeholder="Your email" required>
+                        <input class="any-questions-form-input" type="tel" placeholder="Your telephone number"
+                            pattern="[0-9,+]{13}" required>
+                        <textarea class="any-questions-form-for-question" cols="30" rows="7" placeholder="Your question"
+                            required></textarea>
                         <button class="send">Send</button>
                     </form>
                     <div class="any-questions-text">
@@ -150,7 +168,6 @@
             </div>
         </div>
     </footer>
-    
     <script src="main.js"></script>
 </body>
 

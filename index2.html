@@ -199,10 +199,13 @@
                 </div>
                 <div class="any-questions-info">
                     <form action="#">
-                        <input type="date" id="date" name="date" placeholder="Date" required>
-                        <input type="email" placeholder="Your email" required>
-                        <input type="tel" placeholder="Your telephone number" pattern="[0-9]{12}" required>
-                        <textarea cols="30" rows="7" placeholder="Your question" required></textarea>
+                        <input class="any-questions-form-input" type="date" id="date" name="date" placeholder="Date"
+                            required>
+                        <input class="any-questions-form-input" type="email" placeholder="Your email" required>
+                        <input class="any-questions-form-input" type="tel" placeholder="Your telephone number"
+                            pattern="[0-9,+]{13}" required>
+                        <textarea class="any-questions-form-for-question" cols="30" rows="7" placeholder="Your question"
+                            required></textarea>
                         <button class="send">Send</button>
                     </form>
                     <div class="any-questions-text">
